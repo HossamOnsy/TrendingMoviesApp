@@ -13,8 +13,7 @@ public class NetworkService {
 
     //TODO Use Your API key
     //---------------------------------------------------------------
-//    public static String api_key = "Put Your API key Here";
-    public static String api_key = "92268add4b3a98b593e13325b061f67b";
+    public static String api_key = "Put Your API key Here";
 
     //---------------------------------------------------------------
     public static String baseUrl = "https://api.themoviedb.org/";
