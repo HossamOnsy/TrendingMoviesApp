@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trending_Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="api_v3_key">92268add4b3a98b593e13325b061f67b</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="error">Something Went Wrong Please Try Again Later</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="exit">Are You Sure You Wish To Exit ?</string>
+    <string name="favorites">Favorites</string>
+    <string name="toast_delete_success_msg">This Movie has been removed from your Favorite List</string>
+    <string name="toast_insert_succ_mssg">This Movie is added Successfully</string>
+    <string name="something_went_wrong">Something Went Wrong ... Please Chec Your Internet</string>
+    <string name="favoritefragment_tag">FavoriteFragment</string>
+    <string name="movie_detail_fragment_tag">MOVIE_DETAIL_FRAGMENT</string>
+    <string name="MovieModel_intent_Extra">MovieModel</string>
+    <string name="movie_trailer_models_extra">MovieTrailerModels</string>
+    <string name="movie_review_list_extra">MovieReviewListModel</string>
+</resources>

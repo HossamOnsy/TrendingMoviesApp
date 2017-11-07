@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardElevation="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/parent"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/trans"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/youtube_iv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_button"
+        android:duplicateParentState="true"
+        android:clickable="false"/>
+    <TextView
+        android:id="@+id/desc_tv"
+        android:layout_width="0dp"
+        android:duplicateParentState="true"
+        android:clickable="false"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/youtube_iv"
+        app:layout_constraintLeft_toRightOf="@+id/youtube_iv"
+        app:layout_constraintBottom_toBottomOf="@+id/youtube_iv"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
